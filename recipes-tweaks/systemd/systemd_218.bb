@@ -19,7 +19,7 @@ inherit gtk-doc useradd pkgconfig autotools perlnative update-rc.d update-altern
 
 SRCREV = "8eebf6ad553adb22d7ea5d291de0b0da38606f4d"
 
-PV = "218+git${SRCPV}"
+PV = "218"
 
 SRC_URI = "git://anongit.freedesktop.org/systemd/systemd;branch=master;protocol=git \
            file://binfmt-install.patch \
